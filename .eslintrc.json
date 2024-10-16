@@ -13,7 +13,7 @@
     "rules": {
         // possible problems
         "array-callback-return": ["error", { "allowImplicit": true }],
-        "no-await-in-loop": 2,
+        "no-await-in-loop": 0,
         "no-control-regex": 0,
         "no-duplicate-imports": 2,
         // suggestions
