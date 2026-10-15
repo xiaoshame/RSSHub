@@ -34,6 +34,24 @@
 
 <Route author="emdoe" example="/benedictevans" path="/benedictevans" />
 
+## BlogFinder {#blogfinder}
+
+### 最新文章 {#blogfinder-latest}
+
+<Route example="/blogfinder/index" path="/blogfinder/index">
+  独立采集 BlogFinder 的最新文章，不与博友圈合并。
+</Route>
+
+## 博友圈 {#boyouquan}
+
+### 最新文章 {#boyouquan-latest}
+
+<Route example="/boyouquan" path="/boyouquan" radar="1">
+  采集博友圈按最新排序的前两页文章，保留博客名称、文章摘要、原文链接及发布时间，并按原文链接去重。
+
+  也可使用 `/boyouquan/index`。BlogFinder 请单独订阅 `/blogfinder/index`。
+</Route>
+
 ## cmpxchg8b {#cmpxchg8b}
 
 ### Articles {#cmpxchg8b-articles}
